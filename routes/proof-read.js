@@ -3,4 +3,4 @@ import { errorCheck } from "../controller/proof-read.js";
 
 export const router = new Router();
 
-router.get("/error-check",errorCheck);
+router.post("/error-check",errorCheck);
